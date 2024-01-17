@@ -52,6 +52,16 @@ How to clone your project
 git clone your-project-url-in-github
 ```
 
+<h3> Environment Variables</h2>
+
+Use the `application.properties.example` as reference to create your configuration file `application.properties` with your AWS Credentials
+
+```yaml
+aws.region=us-east-1
+aws.accessKeyId={YOUR_AWS_KEY_ID}
+aws.secretKey={YOUR_AWS_SECRET}
+```
+
 <h3>Starting</h3>
 
 How to start your project
@@ -59,7 +69,8 @@ How to start your project
 ```bash
 cd project-name
 npm some-command-to-run
-```
+``````
+
 
 <h2 id="routes">📍 API Endpoints</h2>
 
