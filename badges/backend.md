@@ -4,6 +4,11 @@
 [VUE__BADGE]: https://img.shields.io/badge/VueJS-fff?style=for-the-badge&logo=vue
 [NEST__BADGE]: https://img.shields.io/badge/nest-7026b9?style=for-the-badge&logo=nest
 [GRAPHQL__BADGE]: https://img.shields.io/badge/GraphQL-e10098?style=for-the-badge&logo=graphql
+[JAVA_BADGE]:https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
+[SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
+[MONGO_BADGE]:https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
+[AWS_BADGE]:https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
+
 
 <h1 align="center" style="font-weight: bold;">Project name 💻</h1>
 
@@ -12,10 +17,14 @@
 ![graphql][GRAPHQL__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
 ![javascript][JAVASCRIPT__BADGE]
+![AWS][AWS_BADGE]
+![spring][SPRING_BADGE]
+![java][JAVA_BADGE]
+![mongo][MONGO_BADGE]
 
 <p align="center">
  <a href="#started">Getting Started</a> • 
-  <a href="#routes">App Routes</a> •
+  <a href="#routes">API Endpoints</a> •
  <a href="#colab">Collaborators</a> •
  <a href="#contribute">Contribute</a>
 </p>
@@ -52,14 +61,42 @@ cd project-name
 npm some-command-to-run
 ```
 
-<h2 id="routes">📍 Application Routes</h2>
+<h2 id="routes">📍 API Endpoints</h2>
 
 Here you can list the main routes of your API, and what are their expected request bodies.
 ​
-| route               | request    | response                                        
-|----------------------|-----------------------------------------------------|---------------------------
-| <kbd>GET /authenticate</kbd>     | `json` with `access_token`| `json` with name
-| <kbd>POST /authenticate</kbd>     | `json` with `id` and `name` and `password`| `json` `access_token`
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>GET /authenticate</kbd>     | retrieves user info see [response details](#get-auth-detail)
+| <kbd>POST /authenticate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
+
+<h3 id="get-auth-detail">GET /authenticate</h3>
+
+**RESPONSE**
+```json
+{
+  "name": "Fernanda Kipper",
+  "age": 20,
+  "email": "her-email@gmail.com"
+}
+```
+
+<h3 id="post-auth-detail">POST /authenticate</h3>
+
+**REQUEST**
+```json
+{
+  "username": "fernandakipper",
+  "password": "4444444"
+}
+```
+
+**RESPONSE**
+```json
+{
+  "token": "OwoMRHsaQwyAgVoc3OXmL1JhMVUYXGGBbCTK0GBgiYitwQwjf0gVoBmkbuyy0pSi"
+}
+```
 
 <h2 id="colab">🤝 Collaborators</h2>
 
