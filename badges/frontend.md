@@ -19,6 +19,7 @@
 <p align="center">
  <a href="#about">About</a> • 
  <a href="#started">Getting Started</a> • 
+  <a href="#started">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
  <a href="#contribute">Contribute</a>
 </p>
@@ -61,6 +62,16 @@ How to start your project
 cd project-name
 npm some-command-to-run
 ```
+
+<h2 id="routes">📍 Application Routes</h2>
+
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/authenticate</kbd>     | page that list all user info
+| <kbd>/login</kbd>     | page to login
+| <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
 
 <h2 id="colab">🤝 Collaborators</h2>
 
