@@ -24,7 +24,7 @@ _Read this in other languages:_
 [![frontend-simple][SIMPLE_FRONT__BADGE]](./simple/frontend.md)
 [![frontend-badges][BADGES_FRONT__BADGE]](./badges/frontend.md)
 [![backend-badges][BADGES_BACK__BADGE]](./badges/backend.md)
-[![minimalist-badges][MINIMALIST__BADGE]](./minimalist/readme.md)
+[![minimalist][MINIMALIST__BADGE]](./minimalist/readme.md)
 
 </div>
 
