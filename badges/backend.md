@@ -1,3 +1,4 @@
+[LICENSE__BADGE]: https://img.shields.io/github/license/Fernanda-Kipper/Readme-Templates?style=for-the-badge
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [EXPRESS__BADGE]: https://img.shields.io/badge/express-005CFE?style=for-the-badge&logo=express
@@ -9,10 +10,12 @@
 [MONGO_BADGE]:https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [AWS_BADGE]:https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
 [PYTHON_BADGE]:https://img.shields.io/badge/Python-3.11.9-blue?style=for-the-badge&logo=python&logoColor=lightskyblue
+[PRS_BADGE]:https://img.shields.io/badge/PRs-welcome-green?style=for-the-badge
 
 
 <h1 align="center" style="font-weight: bold;">Project name 💻</h1>
 
+![license][LICENSE__BADGE]
 ![express][EXPRESS__BADGE]
 ![nest][NEST__BADGE]
 ![graphql][GRAPHQL__BADGE]
@@ -23,6 +26,7 @@
 ![java][JAVA_BADGE]
 ![mongo][MONGO_BADGE]
 ![python][PYTHON_BADGE]
+![prs][PRS_BADGE]
 
 <details open="open">
 <summary>Table of Contents</summary>
