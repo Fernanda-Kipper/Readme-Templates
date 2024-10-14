@@ -8,7 +8,7 @@
 [SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
 [MONGO_BADGE]:https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [AWS_BADGE]:https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
-[NODE_BADGE]:https://img.shields.io/badge/node.js-20.16.0-43853D?style=for-the-badge&logo=node.js
+[PYTHON_BADGE]:https://img.shields.io/badge/Python-3.11.9-blue?style=for-the-badge&logo=python&logoColor=lightskyblue
 
 
 <h1 align="center" style="font-weight: bold;">Project name 💻</h1>
@@ -22,20 +22,20 @@
 ![spring][SPRING_BADGE]
 ![java][JAVA_BADGE]
 ![mongo][MONGO_BADGE]
-![node][NODE_BADGE]
+![python][PYTHON_BADGE]
 
 <details open="open">
 <summary>Table of Contents</summary>
   
-- [🚀 Getting started](#getting-started)
+- [🚀 Getting started](#started)
   - [Prerequisites](#prerequisites)
   - [Cloning](#cloning)
   - [Environment Variables](#environment-variables)
   - [Starting](#starting)
-- [📍 API Endpoints](#api-endpoints)
-  - [GET /authenticate](#get-/authenticate)
-  - [POST /authenticate](#post-/authenticate)
-- [🤝 Collaborators](#collaborators)
+- [📍 API Endpoints](#routes)
+  - [GET /authenticate](#get-auth-detail)
+  - [POST /authenticate](#post-auth-detail)
+- [🤝 Collaborators](#colab)
 - [📫 Contribute](#contribute)
   
 </details>
@@ -63,7 +63,7 @@ How to clone your project
 git clone your-project-url-in-github
 ```
 
-<h3> Environment Variables</h2>
+<h3>Environment Variables</h2>
 
 Use the `application.properties.example` as reference to create your configuration file `application.properties` with your AWS Credentials
 
