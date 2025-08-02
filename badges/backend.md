@@ -1,3 +1,4 @@
+[LICENSE__BADGE]: https://img.shields.io/github/license/Fernanda-Kipper/Readme-Templates?style=for-the-badge
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [EXPRESS__BADGE]: https://img.shields.io/badge/express-005CFE?style=for-the-badge&logo=express
@@ -8,10 +9,13 @@
 [SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
 [MONGO_BADGE]:https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [AWS_BADGE]:https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
+[PYTHON_BADGE]:https://img.shields.io/badge/Python-3.11.9-blue?style=for-the-badge&logo=python&logoColor=lightskyblue
+[PRS_BADGE]:https://img.shields.io/badge/PRs-welcome-green?style=for-the-badge
 
 
 <h1 align="center" style="font-weight: bold;">Project name 💻</h1>
 
+![license][LICENSE__BADGE]
 ![express][EXPRESS__BADGE]
 ![nest][NEST__BADGE]
 ![graphql][GRAPHQL__BADGE]
@@ -21,13 +25,24 @@
 ![spring][SPRING_BADGE]
 ![java][JAVA_BADGE]
 ![mongo][MONGO_BADGE]
+![python][PYTHON_BADGE]
+![prs][PRS_BADGE]
 
-<p align="center">
- <a href="#started">Getting Started</a> • 
-  <a href="#routes">API Endpoints</a> •
- <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
-</p>
+<details open="open">
+<summary>Table of Contents</summary>
+  
+- [🚀 Getting started](#started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning](#cloning)
+  - [Environment Variables](#environment-variables)
+  - [Starting](#starting)
+- [📍 API Endpoints](#routes)
+  - [GET /authenticate](#get-auth-detail)
+  - [POST /authenticate](#post-auth-detail)
+- [🤝 Collaborators](#colab)
+- [📫 Contribute](#contribute)
+  
+</details>
 
 <p align="center">
   <b>Simple description of what your project do or how to use it.</b>
@@ -52,7 +67,7 @@ How to clone your project
 git clone your-project-url-in-github
 ```
 
-<h3> Environment Variables</h2>
+<h3>Environment Variables</h2>
 
 Use the `application.properties.example` as reference to create your configuration file `application.properties` with your AWS Credentials
 

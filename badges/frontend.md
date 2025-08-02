@@ -1,3 +1,4 @@
+[LICENSE__BADGE]: https://img.shields.io/github/license/Fernanda-Kipper/Readme-Templates?style=for-the-badge
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
@@ -6,23 +7,36 @@
 [ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://github.com/Fernanda-Kipper/Readme-Templates
+[NODE_BADGE]:https://img.shields.io/badge/node.js-20.16.0-43853D?style=for-the-badge&logo=node.js
+[PYTHON_BADGE]:https://img.shields.io/badge/Python-3.11.9-blue?style=for-the-badge&logo=python&logoColor=lightskyblue
+[PRS_BADGE]:https://img.shields.io/badge/PRs-welcome-green?style=for-the-badge
 
 <h1 align="center" style="font-weight: bold;">Project name 💻</h1>
 
+![license][LICENSE__BADGE]
 ![react][REACT__BADGE]
 ![gatsby][GATSBY__BADGE]
 ![angular][ANGULAR__BADGE]
 ![vue][VUE__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
 ![javascript][JAVASCRIPT__BADGE]
+![node][NODE_BADGE]
+![python][PYTHON_BADGE]
+![prs][PRS_BADGE]
 
-<p align="center">
- <a href="#about">About</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
-</p>
+<details open="open">
+<summary>Table of Contents</summary>
+ 
+- [📌 About](#started)
+- [🚀 Getting started](#started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning](#cloning)
+  - [Starting](#starting)
+- [📍 Application Routes](#routes)
+- [🤝 Collaborators](#colab)
+- [📫 Contribute](#contribute)
+  
+</details>
 
 
 <p align="center">
